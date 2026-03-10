@@ -179,31 +179,31 @@ with tab_about:
     st.header("Welcome to Resume Builder App!")
 
     st.subheader("⚙️ What exactly does this app do?")
-    st.write("""Basically, this app is your personal career assistant! It takes all your hard work, skills, 
-    and education and turns them into a super clean, structured PDF resume. We'll handle 
-    everything for you! :)
+    st.write("""
+    * Takes your skills, education, and achievements and organizes them automatically.
+    * Converts information into a well-structured PDF resume.
+    * Handles the formatting and layout so you don’t have to design it yourself.
     """)
 
     st.subheader("👥 Who is this for?")
     st.write("""
-    I made this specifically for **students and entry-level professionals** who want 
-    to look sharp and professional without spending hours on layout design. If you need 
-    a resume that's "ready-to-go" in minutes, you're in the right place! :3
+   * Students who are preparing their first resume.
+   * People who want a ready-to-use resume in just a few minutes without spending hours designing it.
+
     """)
 
     st.subheader("📂 How does it work?")
     st.markdown("""
     **What you give us (Inputs):**
     * Your basics (Name, Email, LinkedIn).
-    * A profile pic
+    * A profile picture.
     * Your target job role.
     * Lists of your achievements, skills, and education history.
     
     **What you get (Output):**
     * A **live preview** so you can see how you look on paper.
-    * A **structured, professional PDF** that you can download and send 
-      straight to your dream employer! 🚀
+    * A **structured, professional PDF** that you can download right away! 🚀
     """)
     
     st.write("---")
-    st.write("Hope this makes your job hunting a little easier! Good luck out there! :)")
+    st.write("Hope this makes your job hunting a little easier! :)")
